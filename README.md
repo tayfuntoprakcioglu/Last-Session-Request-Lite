@@ -9,15 +9,15 @@ Be sure to use it in PHP 5.4.0 and higher versions!
 # Setup
 Add it anywhere on your web page. Security Protocol works in all areas and conditions.
 ```php
-  include 'typhoonweb.php';
+  include 'tt.php';
 ```
 
 # Settings
 
-Do not forget to change the recording address (record.typhoonweb). You can create an address, preferably with complex numbers, special characters, numbers.</br>
+Do not forget to change the recording address (record.tt). You can create an address, preferably with complex numbers, special characters, numbers.</br>
 Indicate the definitions you want to save from the bottom.. ( $_SERVER['REMOTE_ADDR'], $_SERVER['REMOTE_PORT'] ... )
 ```php
-  $fp = fopen("record.typhoonweb", "a");
+  $fp = fopen("record.tt", "a");
 ```
 
 The error message is displayed in this section. Change this page. Additionally, you can redirect it to 404 pages.
@@ -132,3 +132,7 @@ If you have set the extension of your recording file to .txt after making your s
 
 # Changelog
 The first version has been added. 
+
+
+This version was used in 2015. It was revised and uploaded to GitHub in 2023.
+
